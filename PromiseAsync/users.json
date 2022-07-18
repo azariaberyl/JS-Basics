@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "Budi",
+    "score": "90"
+  },
+  {
+    "id": "2",
+    "name": "Bagong",
+    "score": "100"
+  },
+  {
+    "id": "3",
+    "name": "Jane",
+    "score": "70"
+  },
+  {
+    "id": "4",
+    "name": "John",
+    "score": "70"
+  }
+]

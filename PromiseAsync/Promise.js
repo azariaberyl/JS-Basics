@@ -8,13 +8,14 @@ const promise = () =>
   });
 
 /* Consume promise */
-const data = promise().then((resolve) => resolve);
-promise().catch((rejected) => console.log(rejected));
-
-/* Finally */
-promise().finally(() => console.log("Promise is done"));
+const data = promise()
+  .then((resolve) => resolve)
+  .catch((rejected) => rejected)
+  .finally(() => {
+    console.log("Promise is done");
+  });
 
 console.log(data);
-setTimeout(() => {
+const load = setInterval(() => {
   console.log(data);
-}, 4000);
+}, 1000);
